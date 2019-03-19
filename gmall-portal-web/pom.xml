@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.atguigu.gmall</groupId>
-	<artifactId>gmall-pms</artifactId>
+	<artifactId>gmall-portal-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gmall-pms</name>
-	<description>商品管理系统</description>
+	<name>gmall-portal-web</name>
+	<description>前端web RestAPI层，对接app以及web</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -21,19 +21,9 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>com.atguigu.gmall</groupId>
-			<artifactId>gmall-api</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.atguigu.gmall</groupId>
-			<artifactId>gmall-api</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
