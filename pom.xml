@@ -25,6 +25,7 @@
         <module>gmall-cas</module>
         <module>gmall-sms</module>
         <module>gmall-portal-web</module>
+        <module>gmall-cms</module>
     </modules>
 
 </project>
